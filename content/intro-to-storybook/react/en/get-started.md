@@ -17,12 +17,12 @@ Let’s run the following commands:
 
 ```shell:clipboard=false
 # Clone the template
-npx degit chromaui/intro-storybook-react-template taskbox
+pnpx degit chromaui/intro-storybook-react-template taskbox
 
 cd taskbox
 
 # Install dependencies
-yarn
+pnpm install
 ```
 
 <div class="aside">
@@ -36,10 +36,10 @@ Now we can quickly check that the various environments of our application are wo
 yarn test --watchAll
 
 # Start the component explorer on port 6006:
-yarn storybook
+pnpm run storybook
 
 # Run the frontend app proper on port 3000:
-yarn start
+pnpm start
 ```
 
 <div class="aside"> 
